@@ -89,10 +89,10 @@ For example, typing :<zero-width space>smile: will replace that text with 😊
 const emojis = {
     smile: '😊',
     angry: '😠',
- 	  party: '🎉',
- 	  heart: '💜',
- 	  cat: '🐱',
- 	  dog: '🐕',
+    party: '🎉',
+    heart: '💜',
+    cat: '🐱',
+    dog: '🐕',
 }
 ```
 
