@@ -86,7 +86,7 @@ code rather than searching for an emoji from a list.
 For example, typing :<zero-width space>smile: will replace that text with 😊 
 
 ```
-const emojis = {  
+const emojis = {
     smile: '😊',
  	  angry: '😠',
  	  party: '🎉',
