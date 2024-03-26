@@ -72,47 +72,8 @@ Your function's output should look something like this:
 3 - Vacation! 
 4 - :(
 5 - $100,000 bonus!
- */
 
-// function getBonus(id) {
-// 	let bonus = ':('
-// 	if (id % 3 === 0) {
-// 		bonus = 'Vacation!'
-// 	}
-// 	if (id % 5 === 0) {
-// 		bonus = '$100,000 bonus!'
-// 	}
-// 	if (id % 3 === 0 && id % 5 === 0) {
-// 		bonus = 'JACKPOT! 1 Million and a Yacht!'
-// 	}
-// 	return bonus
-// }
-
-// function awardBonuses() {
-// 	for (let i = 1; i < 101; i++) {
-// 		console.log(i + ' - ' + getBonus(i))
-// 	}
-// }
-
-// function awardBonuses() {
-// 	// loop through 1 - 100
-// 	for (let i = 1; i <= 100; i++) {
-// 		// is divisible by 3 & 5?
-// 		if (i % 15 === 0) {
-// 			console.log(`${i} - JACKPOT! 1 Million and a Yacht!`)
-// 		} else if (i % 3 === 0) {
-// 			console.log(`${i} - Vacation!`)
-// 		} else if (i % 5 === 0) {
-// 			console.log(`${i} - $100,000 bonus!`)
-// 		} else {
-// 			console.log(`${i} - :(`)
-// 		}
-// 	}
-// }
-
-// awardBonuses()
-
-/* NO 12 - Emojify!
+## 12 - Emojify!
 
 Popular services like Slack and Github allow for emoji shortscodes, meaning 
 they will detect when a word in a sentence begins and ends with a colon (:)
