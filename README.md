@@ -112,6 +112,13 @@ Your function's output should look something like this:
 4 - :(  
 5 - $100,000 bonus!
 
+```
+function awardBonuses(){
+}
+
+awardBonuses();
+```
+
 ## 12 - Emojify!
 
 Popular services like Slack and Github allow for emoji shortscodes, meaning
@@ -150,6 +157,12 @@ Example output: "flower"
 Example input: "elephant"  
 Example output: "elephant"
 
+```
+function emojifyWord(word){
+    return;
+}
+```
+
 ### Step 2: Write a function to find any emoji shortcodes in a phrase
 
 Your function should map over each word in the phrase, emojify any word
@@ -162,8 +175,22 @@ Example output: "I 💜 my 🐱"
 Example input: "I :<zero-width space>heart: my elephant"  
 Example output: "I 💜 my elephant"
 
-## 14 - Anagrams are groups of words that can be spelled with the same letters
+```
+function emojifyPhrase(phrase){
+    return;
+}
 
+// console.log(emojifyWord(":heart:"));
+// console.log(emojifyWord(":flower:"));
+// console.log(emojifyWord("elephant"));
+
+// console.log(emojifyPhrase("I :heart: my :cat:"));
+// console.log(emojifyPhrase("I :heart: my :elephant:"));
+```
+
+## 14 - Is it an Anagram?
+
+Anagrams are groups of words that can be spelled with the same letters.
 For example, the letters in "pea" can be rearrange to spell "ape", and
 the letters in "allergy" can be rearranged to spell "gallery."
 
@@ -176,7 +203,18 @@ Example output: true
 Example input: "rainbow", "crossbow"  
 Example output: false
 
-## 16 - We Come in Peace!
+```
+function isAnagram(str1, str2){
+
+}
+
+console.log(isAnagram("allergy", "gallery"));
+console.log(isAnagram("treasure", "measure"));
+```
+
+## 16 - Decode an alien message
+
+We Come in Peace!
 
 We've received what (we assume) is a message of peace and brotherhood from
 an alien planet. They almost got it right, but the messages are
@@ -203,12 +241,27 @@ Practice both ways!
 Example input: !htrae ot emocleW  
 Example output: Welcome to earth!
 
+```
+function reverseString(arr){
+    return arr;
+}
+```
+
 ### Step 2: Now we'll reverse all strings in an array.
 
 Write a function that takes in an array of strings and returns a new array with all strings reversed.
 
 You can use reuse your reverseString() function, use string methods, or
 reverse the strings manually.
+
+```
+function reverseStringsInArray(arr){
+    return arr;
+}
+
+console.log(reverseString(title));
+console.log(reverseStringsInArray(messages));
+```
 
 ## 18 - Palindromes
 
@@ -223,6 +276,19 @@ Example output: false
 
 Example input: "rotator"  
 Example output: true
+
+```
+function isPalindrome(str){
+
+}
+
+// Test your function
+console.log(isPalindrome("abba"));
+console.log(isPalindrome("civic"));
+console.log(isPalindrome("octopus"));
+console.log(isPalindrome("pumpkins"));
+console.log(isPalindrome("madam"));
+```
 
 ## 20 - Save Grandpa's password
 
