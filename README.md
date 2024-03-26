@@ -15,7 +15,7 @@ Example input: "I'm almost out of coffee"
 Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 
 
-/* NO 4 - Whispering function 
+## 04 - Whispering function 
 Write a function `whisper` that takes in a sentence 
 and returns a new sentence in all lowercase letters with
 "shh..." at the beginning. 
@@ -28,57 +28,22 @@ input: "The KITTENS are SLEEPING!"
 output: "shh... the kittens are sleeping"
 
 Hint: endsWith and slice
-*/
 
-// console.log(whisper('PLEASE STOP SHOUTING.'))
-// console.log(whisper("MA'AM, this is a Wendy's!"))
 
-// function whisper(str) {
-// 	const withoutExclamation = str.endsWith('!')
-// 		? str.slice(0, str.length - 1)
-// 		: str
-// 	return 'shh... ' + withoutExclamation.toLowerCase()
-// }
-
-// function whisper(str) {
-// 	if (str.endsWith('!')) {
-// 		return 'shh... ' + str.slice(0, -1).toLowerCase()
-// 	}
-// 	return 'shh... ' + str.toLowerCase()
-// }
-
-/* NO 6 - Alternating Caps 
+## 06 - Alternating Caps 
  Write a function that takes in a string of letters
  and returns a sentence in which every other letter is capitalized.
 
 Example input: "I'm so happy it's Monday"
 Example output: "I'M So hApPy iT'S MoNdAy"
-*/
 
-// function altCaps(str) {
-// 	const arr = str.split('')
-// 	let returnString = ''
 
-// 	for (let i = 0; i < arr.length; i++) {
-// 		if (i % 2 === 0) {
-// 			returnString += arr[i].toUpperCase()
-// 		} else {
-// 			returnString += arr[i].toLowerCase()
-// 		}
-// 	}
-// 	return returnString
-// }
-
-// console.log(altCaps('When you visit Portland you have to go to VooDoo Donuts'))
-
-/* NO 8 - toTitleCase
+## 08 - toTitleCase
 Write a function that will capitalize every word in a sentence.  
 
 Example Input: "everything, everywhere, all at once"
 Example Output: "Everything, Everywhere, All At Once"
-*/
 
-/* 
 First, write a function that takes in one word and 
 capitalizes the first letter of that word.
 
@@ -86,41 +51,9 @@ Example Input: "scrimba"
 Example Output: "Scrimba"
 
 Hint: Trying using slice() and .toUpperCase()
-*/
 
-// function capitalizeWord(word) {
-// 	const first = word.slice(0, 1)
-// 	const rest = word.slice(1, word.length)
-// 	return first.toUpperCase() + rest
-// }
 
-// function toTitleCase(str) {
-// 	const arr = str.split(' ')
-// 	let finalStr = ''
-// 	for (let word of arr) {
-// 		finalStr += capitalizeWord(word) + ' '
-// 	}
-// 	return finalStr.trimEnd()
-// }
-
-// function capitalizeWord(word) {
-// 	return word[0].toUpperCase() + word.slice(1)
-// }
-
-// function toTitleCase(str) {
-// 	// split sentence into an array of words
-// 	const sentenceArr = str.split(' ')
-// 	// loop through the arrays of words and capitalizeWord func on each word
-// 	const capArr = sentenceArr.map((word) => capitalizeWord(word))
-// 	// join sentence arr back into a string
-// 	return capArr.join(' ')
-// }
-
-// // Test your functions
-// console.log(capitalizeWord('pumpkin'))
-// console.log(toTitleCase('pumpkin pranced purposefully across the pond'))
-
-/* NO 10 - Totally Not Another FizzBuzz 
+## 10 - Totally Not Another FizzBuzz 
 
 Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based on their employee ID numbers! 
 
