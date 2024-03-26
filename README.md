@@ -2,7 +2,7 @@
 
 From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/frontend), Module 12 - Getting Hired.
 
-## [02](./02/) - Panic function
+## [02 - Panic function](./02/index.js)
 
 Write a PANIC! function. The function should take in a sentence and return the same
 sentence in all caps with an exclamation point (!) at the end. Use JavaScript's
