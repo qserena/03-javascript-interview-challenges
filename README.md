@@ -85,27 +85,16 @@ code rather than searching for an emoji from a list.
 
 For example, typing :smile: will replace that text with 😊 
 
-`
+```
 const emojis = {
- 	smile: '😊',
- 	angry: '😠',
- 	party: '🎉',
- 	heart: '💜',
- 	cat: '🐱',
- 	dog: '🐕',
- }
- `
-
- ```
-const emojis = {
- 	smile: '😊',
- 	angry: '😠',
- 	party: '🎉',
- 	heart: '💜',
- 	cat: '🐱',
- 	dog: '🐕',
- }
- ```
+    smile: '😊',
+ 	  angry: '😠',
+ 	  party: '🎉',
+ 	  heart: '💜',
+ 	  cat: '🐱',
+ 	  dog: '🐕',
+}
+```
  
 
 /* 1. Write a function that checks if a lowercase word starts and 
