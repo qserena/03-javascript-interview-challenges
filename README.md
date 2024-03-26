@@ -83,7 +83,7 @@ and automatically replace that word with an emoji.
 These shortcodes allow users to add an emoji to their messages by typing a 
 code rather than searching for an emoji from a list. 
 
-For example, typing \:smile\: will replace that text with 😊 
+For example, typing :<zero-width space>smile: will replace that text with 😊 
 
 ```
 const emojis = {  
