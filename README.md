@@ -96,8 +96,8 @@ const emojis = {
 }
 ```
 
-1) Write a function that checks if a lowercase word starts and 
-ends with a colon. If it does, remove the colons and
+### Step 1: Write a function that checks if a lowercase word starts and ends with a colon 
+If it does, remove the colons and
 look up the word in the emoji object. If the word is in the 
 emojis object, return the corresponding emoji.
 If it isn't, return the original word.
@@ -112,7 +112,7 @@ Example input: "elephant"
 Example output: "elephant"
 
 
-2) Write a function to find any emoji shortcodes in a phrase.
+### Step 2: Write a function to find any emoji shortcodes in a phrase
 Your function should map over each word in the phrase, emojify any word
 that begins and ends with a colon, then return the emojified phrase. 
 Feel free to use your emojify function from the previous exercise!
@@ -154,7 +154,7 @@ read what they have to say!
 ]
 ```
 
-Step 1: Reverse a string
+### Step 1: Reverse a string
 Write a function that takes in a string and returns the reverse 
 of that string. An interviewer may want to check if you know your
 string methods, or may want to know if you can reverse a string manually. 
@@ -163,8 +163,8 @@ Practice both ways!
 Example input: !htrae ot emocleW  
 Example output: Welcome to earth!
 
-Step 2: Now we'll reverse all strings in an array. Write a function that takes in
-an array of strings and returns a new array with all strings reversed.
+### Step 2: Now we'll reverse all strings in an array. 
+Write a function that takes in an array of strings and returns a new array with all strings reversed.
 
 You can use reuse your reverseString() function, use string methods, or 
 reverse the strings manually. 
