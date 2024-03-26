@@ -67,11 +67,11 @@ Not divisible by 3 or 5 - :(
 Write a program to loop through all the ID numbers and print their prize. 
 Your function's output should look something like this: 
 
-1 - :(
-2 - :(
-3 - Vacation! 
-4 - :(
-5 - $100,000 bonus!
+1 - :(  
+2 - :(  
+3 - Vacation!   
+4 - :(  
+5 - $100,000 bonus!  
 
 
 ## 12 - Emojify!
