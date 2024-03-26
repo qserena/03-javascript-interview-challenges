@@ -1,4 +1,5 @@
 # JavaScript Interview Challenges
+From [Hej](https://scrimba.com/learn/frontend)
 
 ## No 2 - Panic function 
 Write a PANIC! function. The function should take in a sentence and return the same
