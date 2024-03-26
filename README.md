@@ -8,10 +8,10 @@ built in string methods.
 
 If the string is a phrase or sentence, add a 😱 emoji in between each word. 
 
-Example input: "Hello"
+Example input: "Hello"  
 Example output: "HELLO!"
 
-Example input: "I'm almost out of coffee"
+Example input: "I'm almost out of coffee"  
 Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 
 
@@ -24,8 +24,8 @@ The function should also remove an exclamation point
 at the end of the sentence, if there is one. 
 
 Example 
-input: "The KITTENS are SLEEPING!"
-output: "shh... the kittens are sleeping"
+input: "The KITTENS are SLEEPING!"  
+output: "shh... the kittens are sleeping"  
 
 Hint: endsWith and slice
 
@@ -34,20 +34,20 @@ Hint: endsWith and slice
  Write a function that takes in a string of letters
  and returns a sentence in which every other letter is capitalized.
 
-Example input: "I'm so happy it's Monday"
+Example input: "I'm so happy it's Monday"  
 Example output: "I'M So hApPy iT'S MoNdAy"
 
 
 ## 08 - toTitleCase
 Write a function that will capitalize every word in a sentence.  
 
-Example Input: "everything, everywhere, all at once"
+Example Input: "everything, everywhere, all at once"  
 Example Output: "Everything, Everywhere, All At Once"
 
 First, write a function that takes in one word and 
 capitalizes the first letter of that word.
 
-Example Input: "scrimba"
+Example Input: "scrimba"  
 Example Output: "Scrimba"
 
 Hint: Trying using slice() and .toUpperCase()
