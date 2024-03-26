@@ -1,5 +1,5 @@
 # JavaScript Interview Challenges
-From [Hej](https://scrimba.com/learn/frontend)
+From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/frontend) Module 12 - Getting Hired.
 
 ## No 2 - Panic function 
 Write a PANIC! function. The function should take in a sentence and return the same
