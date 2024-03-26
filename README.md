@@ -73,6 +73,7 @@ Your function's output should look something like this:
 4 - :(
 5 - $100,000 bonus!
 
+
 ## 12 - Emojify!
 
 Popular services like Slack and Github allow for emoji shortscodes, meaning 
@@ -84,16 +85,17 @@ code rather than searching for an emoji from a list.
 
 For example, typing :smile: will replace that text with 😊 
 
-*/
-
-// const emojis = {
-// 	smile: '😊',
-// 	angry: '😠',
-// 	party: '🎉',
-// 	heart: '💜',
-// 	cat: '🐱',
-// 	dog: '🐕',
-// }
+`
+const emojis = {
+ 	smile: '😊',
+ 	angry: '😠',
+ 	party: '🎉',
+ 	heart: '💜',
+ 	cat: '🐱',
+ 	dog: '🐕',
+ }
+ `
+ 
 
 /* 1. Write a function that checks if a lowercase word starts and 
 ends with a colon. If it does, remove the colons and
