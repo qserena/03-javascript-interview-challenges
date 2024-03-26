@@ -117,10 +117,10 @@ Your function should map over each word in the phrase, emojify any word
 that begins and ends with a colon, then return the emojified phrase. 
 Feel free to use your emojify function from the previous exercise!
 
-Example input: "I :heart: my :cat:"  
+Example input: "I :<zero-width space>heart: my :<zero-width space>cat:"  
 Example output: "I 💜 my 🐱"
 
-Example input: "I :heart: my elephant"  
+Example input: "I :<zero-width space>heart: my elephant"  
 Example output: "I 💜 my elephant"
 
 
