@@ -1,6 +1,6 @@
-#JavaScript Interview Challenges#
+# JavaScript Interview Challenges
 
-/* No 2 - Panic function 
+## No 2 - Panic function 
 Write a PANIC! function. The function should take in a sentence and return the same
 sentence in all caps with an exclamation point (!) at the end. Use JavaScript's
 built in string methods. 
@@ -12,18 +12,7 @@ Example output: "HELLO!"
 
 Example input: "I'm almost out of coffee"
 Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
-*/
 
-// Test your function
-// console.log(panic("I'm almost out of coffee"))
-// console.log(panic('winter is coming'))
-// console.log(panic('Hello'))
-
-// function panic(str) {
-// 	// return str.toUpperCase().replaceAll(' ', ' 😱 ') + '!'
-
-// 	return str.toUpperCase().split(' ').join(' 😱 ') + '!'
-// }
 
 /* NO 4 - Whispering function 
 Write a function `whisper` that takes in a sentence 
