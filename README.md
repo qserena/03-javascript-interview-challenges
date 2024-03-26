@@ -95,6 +95,17 @@ const emojis = {
  	dog: '🐕',
  }
  `
+
+ ```
+const emojis = {
+ 	smile: '😊',
+ 	angry: '😠',
+ 	party: '🎉',
+ 	heart: '💜',
+ 	cat: '🐱',
+ 	dog: '🐕',
+ }
+ ```
  
 
 /* 1. Write a function that checks if a lowercase word starts and 
