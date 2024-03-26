@@ -2,6 +2,10 @@
 
 From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/frontend), Module 12 - Getting Hired.
 
+Please click each header to see the solution!
+
+<br/>
+
 ## [02 - Panic function](./02/index.js)
 
 Write a PANIC! function. The function should take in a sentence and return the same
@@ -21,6 +25,8 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 console.log(panic("I'm almost out of coffee"));
 console.log(panic("winter is coming"))
 ```
+
+<br/>
 
 ## 04 - Whispering function
 
@@ -42,6 +48,8 @@ console.log(whisper("PLEASE STOP SHOUTING."));
 console.log(whisper("MA'AM, this is a Wendy's!"));
 ```
 
+<br/>
+
 ## 06 - Alternating Caps
 
 Write a function that takes in a string of letters
@@ -57,6 +65,8 @@ function altCaps(str){
 
 console.log(altCaps("When you visit Portland you have to go to VooDoo Donuts"));
 ```
+
+<br/>
 
 ## 08 - toTitleCase()
 
@@ -92,6 +102,8 @@ console.log(capitalizeWord("pumpkin"));
 console.log(toTitleCase("pumpkin pranced purposefully across the pond"));
 ```
 
+<br/>
+
 ## 10 - Totally Not Another FizzBuzz
 
 Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based on their employee ID numbers!
@@ -118,6 +130,8 @@ function awardBonuses(){
 
 awardBonuses();
 ```
+
+<br/>
 
 ## 12 - Emojify!
 
@@ -188,6 +202,8 @@ function emojifyPhrase(phrase){
 // console.log(emojifyPhrase("I :heart: my :elephant:"));
 ```
 
+<br/>
+
 ## 14 - Is it an Anagram?
 
 Anagrams are groups of words that can be spelled with the same letters.
@@ -211,6 +227,8 @@ function isAnagram(str1, str2){
 console.log(isAnagram("allergy", "gallery"));
 console.log(isAnagram("treasure", "measure"));
 ```
+
+<br/>
 
 ## 16 - Decode an alien message
 
@@ -263,6 +281,8 @@ console.log(reverseString(title));
 console.log(reverseStringsInArray(messages));
 ```
 
+<br/>
+
 ## 18 - Palindromes
 
 Palindromes are words that are the same forward or backward.
@@ -290,6 +310,8 @@ console.log(isPalindrome("pumpkins"));
 console.log(isPalindrome("madam"));
 ```
 
+<br/>
+
 ## 20 - Save Grandpa's password
 
 Grandpa's hand isn't as steady as it used to be. You finally convinced him
@@ -313,6 +335,8 @@ function removeDupeChars(chars) {
 
 console.log(removeDupeChars(password))
 ```
+
+<br/>
 
 /\* NO 22 - How often do the letters in your name repeat?
 
