@@ -88,7 +88,7 @@ For example, typing :<zero-width space>smile: will replace that text with 😊
 ```
 const emojis = {
     smile: '😊',
-  angry: '😠',
+   angry: '😠',
  	  party: '🎉',
  	  heart: '💜',
  	  cat: '🐱',
