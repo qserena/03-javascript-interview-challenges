@@ -1,4 +1,4 @@
-#JavaScript Interview Chalenges#
+#JavaScript Interview Challenges#
 
 /* No 2 - Panic function 
 Write a PANIC! function. The function should take in a sentence and return the same
