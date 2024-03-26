@@ -124,7 +124,7 @@ Example input: "I :<zero-width space>heart: my elephant"
 Example output: "I 💜 my elephant"
 
 
-## 14 - Anagrams are groups of words that can be spelled with the same letters. 
+## 14 - Anagrams are groups of words that can be spelled with the same letters 
 For example, the letters in "pea" can be rearrange to spell "ape", and 
 the letters in "allergy" can be rearranged to spell "gallery."
 
