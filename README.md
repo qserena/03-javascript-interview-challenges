@@ -338,7 +338,7 @@ console.log(removeDupeChars(password))
 
 <br/>
 
-# [22 - How often do the letters in your name repeat?](./22/index.js)
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 
 Write a function that counts how many times each letter of your name
 occurs. Your function should take in your first and last name and return
