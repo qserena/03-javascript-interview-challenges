@@ -28,7 +28,7 @@ console.log(panic("winter is coming"))
 
 <br/>
 
-## 04 - Whispering function
+## [04 - Whispering function](./04/index.js)
 
 Write a function `whisper` that takes in a sentence
 and returns a new sentence in all lowercase letters with
@@ -50,7 +50,7 @@ console.log(whisper("MA'AM, this is a Wendy's!"));
 
 <br/>
 
-## 06 - Alternating Caps
+## [06 - Alternating Caps](./06/index.js)
 
 Write a function that takes in a string of letters
 and returns a sentence in which every other letter is capitalized.
@@ -68,7 +68,7 @@ console.log(altCaps("When you visit Portland you have to go to VooDoo Donuts"));
 
 <br/>
 
-## 08 - toTitleCase()
+## [08 - toTitleCase()](./08/index.js)
 
 Write a function that will capitalize every word in a sentence.
 
@@ -104,7 +104,7 @@ console.log(toTitleCase("pumpkin pranced purposefully across the pond"));
 
 <br/>
 
-## 10 - Totally Not Another FizzBuzz
+## [10 - Totally Not Another FizzBuzz](./10/index.js)
 
 Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based on their employee ID numbers!
 
@@ -133,7 +133,7 @@ awardBonuses();
 
 <br/>
 
-## 12 - Emojify!
+## [12 - Emojify!](./12/index.js)
 
 Popular services like Slack and Github allow for emoji shortscodes, meaning
 they will detect when a word in a sentence begins and ends with a colon (:)
@@ -204,7 +204,7 @@ function emojifyPhrase(phrase){
 
 <br/>
 
-## 14 - Is it an Anagram?
+## [14 - Is it an Anagram?](./14/index.js)
 
 Anagrams are groups of words that can be spelled with the same letters.
 For example, the letters in "pea" can be rearrange to spell "ape", and
@@ -230,7 +230,7 @@ console.log(isAnagram("treasure", "measure"));
 
 <br/>
 
-## 16 - Decode an alien message
+## [16 - Decode an alien message](./16/index.js)
 
 We Come in Peace!
 
@@ -283,7 +283,7 @@ console.log(reverseStringsInArray(messages));
 
 <br/>
 
-## 18 - Palindromes
+## [18 - Palindromes](./18/index.js)
 
 Palindromes are words that are the same forward or backward.
 For example, the words "noon" and "kayak" are palindromes.
@@ -312,7 +312,7 @@ console.log(isPalindrome("madam"));
 
 <br/>
 
-## 20 - Save Grandpa's password
+## [20 - Save Grandpa's password](./20/index.js)
 
 Grandpa's hand isn't as steady as it used to be. You finally convinced him
 to start using a password manager, but he accidentally typed and saved his
