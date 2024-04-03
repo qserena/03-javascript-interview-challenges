@@ -2,7 +2,9 @@
 
 From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/frontend), Module 12 - Getting Hired.
 
-➡️: *NOTE! Please click each header to see the JavaScript solution!* :arrow_left:
+<br/>
+
+:arrow-right:  *NOTE! Please click each header to see the JavaScript solution!*  :arrow_left:
 
 <br/>
 
