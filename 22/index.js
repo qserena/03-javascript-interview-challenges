@@ -13,5 +13,11 @@ Your function should NOT count spaces and should not be case sensitive (a
 lowercase t and a capital T should be considered the same character).
 */
 
-// console.log(countChars('Peggy Porth'))
-// console.log(countChars('Tom Serenander'))
+function countChars(name) {
+	const fixedName = name.replaceAll(' ', '').toLowerCase()
+	const arrName = fixedName.split('')
+	arrName.forEach((ch) => console.log(ch))
+}
+
+console.log(countChars('Peggy Porth'))
+console.log(countChars('Tom Serenander'))
