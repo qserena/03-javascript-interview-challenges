@@ -350,11 +350,11 @@ Example output: {p: 2, e: 1, g: 2, y: 1, o: 1, r: 1, t: 1, h: 1}
 
 Your function should NOT count spaces and should not be case sensitive (a
 lowercase t and a capital T should be considered the same character).
-*/
-
 
 // console.log(countChars('Peggy Porth'))
 // console.log(countChars('Tom Serenander'))
+
+<br/>
 
 /\* NO 24 - Chef Mario's Recipe Book
 
