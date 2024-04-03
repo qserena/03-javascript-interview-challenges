@@ -2,7 +2,9 @@
 
 From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/frontend), Module 12 - Getting Hired.
 
-*NOTE! Please click each header to see the JavaScript solution!*
+<br/>
+
+:arrow_right:  *NOTE! Please click each header to see the JavaScript solution!*  :arrow_left:
 
 <br/>
 
@@ -338,7 +340,7 @@ console.log(removeDupeChars(password))
 
 <br/>
 
-# [22 - How often do the letters in your name repeat?](./22/index.js)
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 
 Write a function that counts how many times each letter of your name
 occurs. Your function should take in your first and last name and return
@@ -350,11 +352,11 @@ Example output: {p: 2, e: 1, g: 2, y: 1, o: 1, r: 1, t: 1, h: 1}
 
 Your function should NOT count spaces and should not be case sensitive (a
 lowercase t and a capital T should be considered the same character).
-*/
-
 
 // console.log(countChars('Peggy Porth'))
 // console.log(countChars('Tom Serenander'))
+
+<br/>
 
 /\* NO 24 - Chef Mario's Recipe Book
 
