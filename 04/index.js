@@ -15,9 +15,11 @@ output: "shh... the kittens are sleeping"
 Hint: endsWith and slice
 */
 
-function whisper(text) {
-	let result = 'shh... ' + text.toLowerCase()
-	return result.endsWith('!') ? result.slice(0, -1) : result
+function whisper(str) {
+	const withoutExclamation = str.endsWith('!')
+		? str.slice(0, str.length - 1)
+		: str
+	return 'shh... ' + withoutExclamation.toLowerCase()
 }
 
 console.log(whisper('PLEASE STOP SHOUTING.'))
