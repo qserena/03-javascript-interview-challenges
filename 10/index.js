@@ -22,7 +22,6 @@ Your function's output should look something like this:
 
 function getBonus(id) {
 	let bonus = ':('
-
 	if (id % 3 === 0 && id % 5 === 0) {
 		bonus = 'JACKPOT! 1 Million and a Yacht!'
 	} else if (id % 3 === 0) {
