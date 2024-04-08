@@ -16,10 +16,10 @@ Hint: endsWith and slice
 */
 
 function whisper(str) {
-	const withoutExclamation = str.endsWith('!')
-		? str.slice(0, str.length - 1)
-		: str
-	return 'shh... ' + withoutExclamation.toLowerCase()
+  const withoutExclamation = str.endsWith('!')
+    ? str.slice(0, str.length - 1)
+    : str
+  return 'shh... ' + withoutExclamation.toLowerCase()
 }
 
 console.log(whisper('PLEASE STOP SHOUTING.'))

@@ -13,12 +13,12 @@ For example, typing :smile: will replace that text with 😊
 */
 
 const emojis = {
-	smile: '😊',
-	angry: '😠',
-	party: '🎉',
-	heart: '💜',
-	cat: '🐱',
-	dog: '🐕',
+  smile: '😊',
+  angry: '😠',
+  party: '🎉',
+  heart: '💜',
+  cat: '🐱',
+  dog: '🐕',
 }
 
 /* 1. Write a function that checks if a lowercase word starts and 
@@ -38,19 +38,19 @@ Example output: "elephant"
 */
 
 function emojifyWord(word) {
-	// starts or ends with colon?
-	// no: return word
-	if (!word.startsWith(':') && !word.endsWith(':')) return word
+  // starts or ends with colon?
+  // no: return word
+  if (!word.startsWith(':') && !word.endsWith(':')) return word
 
-	// yes: remove colons
-	const slice = word.slice(1, -1)
-	// exists in emoji object?
-	if (emojis[slice]) {
-		// yes: return emoji
-		return emojis[slice]
-	} else {
-		return slice
-	}
+  // yes: remove colons
+  const slice = word.slice(1, -1)
+  // exists in emoji object?
+  if (emojis[slice]) {
+    // yes: return emoji
+    return emojis[slice]
+  } else {
+    return slice
+  }
 }
 
 /* 2. Write a function to find any emoji shortcodes in a phrase.
@@ -66,9 +66,9 @@ Example output: "I 💜 my elephant"
 */
 
 function emojifyPhrase(phrase) {
-	const words = phrase.split(' ')
-	const emojifyedWords = words.map((word) => emojifyWord(word))
-	return emojifyedWords.join(' ')
+  const words = phrase.split(' ')
+  const emojifyedWords = words.map((word) => emojifyWord(word))
+  return emojifyedWords.join(' ')
 }
 
 console.log(emojifyWord(':heart:'))

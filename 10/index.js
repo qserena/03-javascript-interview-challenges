@@ -21,21 +21,21 @@ Your function's output should look something like this:
  */
 
 function getBonus(id) {
-	let bonus = ':('
-	if (id % 3 === 0 && id % 5 === 0) {
-		bonus = 'JACKPOT! 1 Million and a Yacht!'
-	} else if (id % 3 === 0) {
-		bonus = 'Vacation!'
-	} else if (id % 5 === 0) {
-		bonus = '$100,000 bonus!'
-	}
-	return bonus
+  let bonus = ':('
+  if (id % 3 === 0 && id % 5 === 0) {
+    bonus = 'JACKPOT! 1 Million and a Yacht!'
+  } else if (id % 3 === 0) {
+    bonus = 'Vacation!'
+  } else if (id % 5 === 0) {
+    bonus = '$100,000 bonus!'
+  }
+  return bonus
 }
 
 function awardBonuses() {
-	for (let i = 1; i < 101; i++) {
-		console.log(i + ' - ' + getBonus(i))
-	}
+  for (let i = 1; i < 101; i++) {
+    console.log(i + ' - ' + getBonus(i))
+  }
 }
 
 awardBonuses()
