@@ -14,9 +14,9 @@ lowercase t and a capital T should be considered the same character).
 */
 
 function countChars(name) {
-  const fixedName = name.replaceAll(' ', '').toLowerCase()
-  const arrName = fixedName.split('')
-  arrName.forEach((ch) => console.log(ch))
+    const fixedName = name.replaceAll(' ', '').toLowerCase()
+    const arrName = fixedName.split('')
+    arrName.forEach((ch) => console.log(ch))
 }
 
 console.log(countChars('Peggy Porth'))

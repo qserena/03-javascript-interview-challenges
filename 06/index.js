@@ -9,17 +9,17 @@ Example output: "I'M So hApPy iT'S MoNdAy"
 */
 
 function altCaps(str) {
-  const arr = str.split('')
-  let returnString = ''
+    const arr = str.split('')
+    let returnString = ''
 
-  for (let i = 0; i < arr.length; i++) {
-    if (i % 2 === 0) {
-      returnString += arr[i].toUpperCase()
-    } else {
-      returnString += arr[i].toLowerCase()
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 === 0) {
+            returnString += arr[i].toUpperCase()
+        } else {
+            returnString += arr[i].toLowerCase()
+        }
     }
-  }
-  return returnString
+    return returnString
 }
 
 console.log(altCaps('When you visit Portland you have to go to VooDoo Donuts'))

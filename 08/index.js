@@ -38,16 +38,16 @@ Alt 2
 */
 
 function capitalizeWord(word) {
-  return word[0].toUpperCase() + word.slice(1)
+    return word[0].toUpperCase() + word.slice(1)
 }
 
 function toTitleCase(str) {
-  // split sentence into an array of words
-  const sentenceArr = str.split(' ')
-  // loop through the arrays of words and capitalizeWord func on each word
-  const capArr = sentenceArr.map((word) => capitalizeWord(word))
-  // join sentence arr back into a string
-  return capArr.join(' ')
+    // split sentence into an array of words
+    const sentenceArr = str.split(' ')
+    // loop through the arrays of words and capitalizeWord func on each word
+    const capArr = sentenceArr.map((word) => capitalizeWord(word))
+    // join sentence arr back into a string
+    return capArr.join(' ')
 }
 
 // Test your functions
