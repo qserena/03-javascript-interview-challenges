@@ -1,4 +1,5 @@
 /* 
+
 10 - Totally Not Another FizzBuzz 
 
 Scrimba CEO Per Borgen wants you to write a program to grant special bonuses to all his employees based on their employee ID numbers! 
@@ -18,6 +19,7 @@ Your function's output should look something like this:
 3 - Vacation! 
 4 - :(
 5 - $100,000 bonus!
+
  */
 
 function getBonus(id) {

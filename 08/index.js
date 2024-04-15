@@ -1,4 +1,5 @@
 /* 
+
 08 - toTitleCase
 
 Write a function that will capitalize every word in a sentence.  

@@ -1,4 +1,5 @@
 /*
+
 14 - Is it an Anagram?
 
 Anagrams are groups of words that can be spelled with the same letters. For example, the letters in "pea" can be rearrange to spell "ape", and the letters in "allergy" can be rearranged to spell "gallery."
@@ -10,6 +11,7 @@ Example output: true
 
 Example input: "rainbow", "crossbow"
 Example output: false
+
 */
 
 function isAnagram(str1, str2) {

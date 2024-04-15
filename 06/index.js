@@ -1,4 +1,5 @@
 /* 
+
 06 - Alternating Caps 
 
  Write a function that takes in a string of letters
@@ -6,6 +7,7 @@
 
 Example input: "I'm so happy it's Monday"
 Example output: "I'M So hApPy iT'S MoNdAy"
+
 */
 
 function altCaps(str) {

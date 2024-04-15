@@ -1,4 +1,5 @@
 /* 
+
 12 - Emojify!
 
 Popular services like Slack and Github allow for emoji shortscodes, meaning 
@@ -21,7 +22,9 @@ const emojis = {
     dog: '🐕',
 }
 
-/* 1. Write a function that checks if a lowercase word starts and 
+/* 
+
+1. Write a function that checks if a lowercase word starts and 
 ends with a colon. If it does, remove the colons and
 look up the word in the emoji object. If the word is in the 
 emojis object, return the corresponding emoji.
@@ -35,6 +38,7 @@ Example output: "flower"
 
 Example input: "elephant"
 Example output: "elephant"
+
 */
 
 function emojifyWord(word) {
@@ -53,7 +57,9 @@ function emojifyWord(word) {
     }
 }
 
-/* 2. Write a function to find any emoji shortcodes in a phrase.
+/* 
+
+2. Write a function to find any emoji shortcodes in a phrase.
 Your function should map over each word in the phrase, emojify any word
 that begins and ends with a colon, then return the emojified phrase. 
 Feel free to use your emojify function from the previous exercise!
@@ -63,6 +69,7 @@ Example output: "I 💜 my 🐱"
 
 Example input: "I :heart: my elephant"
 Example output: "I 💜 my elephant"
+
 */
 
 function emojifyPhrase(phrase) {
