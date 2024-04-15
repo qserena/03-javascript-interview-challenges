@@ -358,6 +358,7 @@ lowercase t and a capital T should be considered the same character).
 
 <br/>
 
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* NO 24 - Chef Mario's Recipe Book
 
 Chef Mario was in the middle of writing his cookbook masterpiece
@@ -427,6 +428,9 @@ Example output: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops"];
 
 // console.log(removeDupesFromArray(eggScrambleRecipe))
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* NO 27 - Scrimba mascot Pumpkin has won the grand prize at an international
 cat show. Below are Pumpkin's scores from the judges, as well as all the
 prizes he's won. In all the excitement of victory,
@@ -494,6 +498,9 @@ Example output: [1, 4, 5, 4, 7, 6, 4, 3, 5]
 // console.log(flatten(kittyPrizes))
 // console.log(flatten(kittyScores))
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* NO 29 - Alex from Scrimba wants to know how many new students have attended
 Scrimba's weekly Town Hall event this year.
 
@@ -518,6 +525,9 @@ Example output: 6
 
 // console.log(sumArray(studentCount))
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* NO 31 - Pizza Night?
 It's the weekend and you and your friends can't agree on
 what to order for dinner, so you put it to a vote.
@@ -556,6 +566,9 @@ Example output: The winner is 🐈 cats with 19 votes!
 
 //import userData from './data-33.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* NO 33 - Totally Private Data Farm
 
 Good news, renown advertising firm Evil Corp. wants to purchase our
@@ -591,6 +604,9 @@ Read about toDateString() for info on formatting a readable date.
 
 //import podcasts from './data-35.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* NO 35 - Find Free Podcasts
 
 We have a list of podcasts and need the ability to filter by only
@@ -625,7 +641,9 @@ Expected output:
 
 //import products from './data-37.js'
 
-/\*
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 37 - It's the day after Halloween 🎃 and all the candy is on sale!
 
 To buy up all the candy, use map() and filter() to put all the
@@ -650,6 +668,9 @@ Expected output:
 
 // console.log(getSaleItems(products))
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 //import shoppingCart from './data-39.js'
 
 /\*  
@@ -672,6 +693,9 @@ Example output: 73.44
 
 //import shoppingCart from './data-41.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* 41 - Use reduce() and only reduce() to calculate and return
 the total cost of only the savory
 items in the shopping cart.
@@ -689,7 +713,9 @@ Expected output: 9.97
 
 // import products from './data-43.js'
 
-// /\*
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 // 43 - You're online shopping for holiday gifts, but money is tight
 // so we need to look at the cheapest items first.
 // Use the built in sort() method to write a function that returns a new array of
@@ -717,6 +743,9 @@ Expected output: 9.97
 
 //import mediaData from './data-45.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* 45 - Find All Unique Tags
 
 As a software dev at ScrimFlix, you're working on a feature
@@ -770,6 +799,9 @@ Expected output:
 
 //import podcasts from './data-48.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* 48 - Welcome Aboard Scrimba Airlines
 
 Our Scrimba Airlines in-flight entertainment package
@@ -814,6 +846,9 @@ each podcast to the console, like this:
 
 //import postData from './data-50.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* 50 - Popularity Contest
 
 Iggy the Influencer and Toby the Tiktoker are dying to know
@@ -836,6 +871,9 @@ by the total number of posts.
 
 //import podcasts from './data-52.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* 52 - Night at the Scrimbies
 
 It's time for the Scrimbies, a prestigious award show for podcast hosts.
@@ -870,6 +908,9 @@ Example output: ["🏆 Alex Booker", "⭐ Bob Smith", "💎 Camilla Lambert" ...
 
 //import podcasts from './data-54.js'
 
+<br/>
+
+## [22 - How often do the letters in your name repeat?](./22/index.js)
 /\* 🌴 54 - Save the Weekend 🌴
 
 Your best friend is a copywriter who writes product descriptions
