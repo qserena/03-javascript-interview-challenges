@@ -695,8 +695,9 @@ Example output: 73.44
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* 41 - Use reduce() and only reduce() to calculate and return
+## [41 - Totally Savory Items](./41/index.js)
+
+Use reduce() and only reduce() to calculate and return
 the total cost of only the savory
 items in the shopping cart.
 
@@ -715,8 +716,8 @@ Expected output: 9.97
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-// 43 - You're online shopping for holiday gifts, but money is tight
+## [43 - Holiday Gift Shopping](./43/index.js)
+// You're online shopping for holiday gifts, but money is tight
 // so we need to look at the cheapest items first.
 // Use the built in sort() method to write a function that returns a new array of
 // products sorted by price, cheapest to most expensive.
