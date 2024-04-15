@@ -358,8 +358,7 @@ lowercase t and a capital T should be considered the same character).
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* NO 24 - Chef Mario's Recipe Book
+## [24 - Chef Mario's Recipe Book](./24/index.js)
 
 Chef Mario was in the middle of writing his cookbook masterpiece
 when he spilled coffee on his keyboard! Now all his recipes have repeat
@@ -430,8 +429,9 @@ Example output: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops"];
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* NO 27 - Scrimba mascot Pumpkin has won the grand prize at an international
+## [27 - Pumpkin's prizes](./27/index.js)
+
+Scrimba mascot Pumpkin has won the grand prize at an international
 cat show. Below are Pumpkin's scores from the judges, as well as all the
 prizes he's won. In all the excitement of victory,
 they've become a jumbled mess of nested arrays. Let's
@@ -500,8 +500,9 @@ Example output: [1, 4, 5, 4, 7, 6, 4, 3, 5]
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* NO 29 - Alex from Scrimba wants to know how many new students have attended
+## [29 - Count the Scrimba Students](./29/index.js)
+
+Alex from Scrimba wants to know how many new students have attended
 Scrimba's weekly Town Hall event this year.
 
 He has an array of first-time attendees for each month of the year.
@@ -527,8 +528,8 @@ Example output: 6
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* NO 31 - Pizza Night?
+## [31 - Pizza Night?](./31/index.js)
+
 It's the weekend and you and your friends can't agree on
 what to order for dinner, so you put it to a vote.
 
@@ -568,8 +569,8 @@ Example output: The winner is 🐈 cats with 19 votes!
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* NO 33 - Totally Private Data Farm
+## [33 - Totally Private Data Farm](./31/index.js)
+/\* NO 
 
 Good news, renown advertising firm Evil Corp. wants to purchase our
 private user data!
