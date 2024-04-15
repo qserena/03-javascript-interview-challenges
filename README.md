@@ -717,6 +717,7 @@ Expected output: 9.97
 <br/>
 
 ## [43 - Holiday Gift Shopping](./43/index.js)
+
 // You're online shopping for holiday gifts, but money is tight
 // so we need to look at the cheapest items first.
 // Use the built in sort() method to write a function that returns a new array of
@@ -746,8 +747,9 @@ Expected output: 9.97
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* 45 - Find All Unique Tags
+## [45 - Collect Unique Genre Tags](./45/index.js)
+
+Find All Unique Tags
 
 As a software dev at ScrimFlix, you're working on a feature
 to let users browse TV shows by tag. The first step is to collect all
@@ -802,8 +804,7 @@ Expected output:
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* 48 - Welcome Aboard Scrimba Airlines
+## [48 - Welcome Aboard Scrimba Airlines](./48/index.js)
 
 Our Scrimba Airlines in-flight entertainment package
 includes a variety of podcasts. We need to add a feature that suggests
@@ -849,8 +850,8 @@ each podcast to the console, like this:
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* 50 - Popularity Contest
+## [50 - Popularity Contest](./50/index.js)
+/\* 
 
 Iggy the Influencer and Toby the Tiktoker are dying to know
 who's more popular on social media.
