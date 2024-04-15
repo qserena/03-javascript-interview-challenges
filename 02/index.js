@@ -1,4 +1,5 @@
 /* 
+
 02 - Panic function 
 
 Write a PANIC! function. The function should take in a sentence and return the same
@@ -12,6 +13,7 @@ Example output: "HELLO!"
 
 Example input: "I'm almost out of coffee"
 Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
+
 */
 
 function panic(phrase) {
