@@ -851,7 +851,6 @@ each podcast to the console, like this:
 <br/>
 
 ## [50 - Popularity Contest](./50/index.js)
-/\* 
 
 Iggy the Influencer and Toby the Tiktoker are dying to know
 who's more popular on social media.
@@ -875,8 +874,7 @@ by the total number of posts.
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* 52 - Night at the Scrimbies
+## [52 - Night at the Scrimbies](./52/index.js)
 
 It's time for the Scrimbies, a prestigious award show for podcast hosts.
 We need to assemble a list of podcast hosts so we can start handing out awards.
@@ -912,8 +910,7 @@ Example output: ["🏆 Alex Booker", "⭐ Bob Smith", "💎 Camilla Lambert" ...
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* 🌴 54 - Save the Weekend 🌴
+## [🌴 54 - Save the Weekend 🌴](./54/index.js)
 
 Your best friend is a copywriter who writes product descriptions
 for a living. You want to use your hacking skills to help them
@@ -953,3 +950,18 @@ Example description: "Coding Corner is a 55 minute education podcast hosted by T
 // }
 // console.log('hej')
 // console.log(createDescriptionsFor(podcasts))
+
+<br/>
+
+## [56 - Find Anagrams in an Array](./56/index.js)
+
+
+
+<br/>
+
+## [58 - Emoji Flower Bed](./58/index.js)
+
+
+<br/>
+
+## [60 - Emoji Slot Machine](./60/index.js)
