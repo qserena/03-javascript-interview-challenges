@@ -569,7 +569,7 @@ Example output: The winner is 🐈 cats with 19 votes!
 
 <br/>
 
-## [33 - Totally Private Data Farm](./31/index.js)
+## [33 - Totally Private Data Farm](./33/index.js)
 /\* NO 
 
 Good news, renown advertising firm Evil Corp. wants to purchase our
@@ -607,8 +607,7 @@ Read about toDateString() for info on formatting a readable date.
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-/\* NO 35 - Find Free Podcasts
+## [35 - Find Free Podcasts](./35/index.js)
 
 We have a list of podcasts and need the ability to filter by only
 podcasts which are free.
@@ -644,8 +643,9 @@ Expected output:
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-37 - It's the day after Halloween 🎃 and all the candy is on sale!
+## [37 - Candy Sale](./37/index.js)
+
+It's the day after Halloween 🎃 and all the candy is on sale!
 
 To buy up all the candy, use map() and filter() to put all the
 candy into a `shoppingCart` array.
@@ -671,8 +671,7 @@ Expected output:
 
 <br/>
 
-## [22 - How often do the letters in your name repeat?](./22/index.js)
-//import shoppingCart from './data-39.js'
+## [39 - Shopping Cart](./39/index.js)
 
 /\*  
 Use reduce() to total the groceries.
