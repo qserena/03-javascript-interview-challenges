@@ -1,4 +1,5 @@
 /* 
+
 04 - Whispering function
 
 Write a function `whisper` that takes in a sentence 
@@ -13,6 +14,7 @@ input: "The KITTENS are SLEEPING!"
 output: "shh... the kittens are sleeping"
 
 Hint: endsWith and slice
+
 */
 
 function whisper(str) {
