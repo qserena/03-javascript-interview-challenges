@@ -1,4 +1,5 @@
 /* 
+
 22 - How often do the letters in your name repeat?
 
 Write a function that counts how many times each letter of your name
@@ -11,12 +12,21 @@ Example output: {p: 2, e: 1, g: 2, y: 1, o: 1, r: 1, t: 1, h: 1}
 
 Your function should NOT count spaces and should not be case sensitive (a
 lowercase t and a capital T should be considered the same character).
+
 */
 
 function countChars(name) {
+    let nameContainer = {}
     const fixedName = name.replaceAll(' ', '').toLowerCase()
     const arrName = fixedName.split('')
-    arrName.forEach((ch) => console.log(ch))
+    arrName.forEach((ch) => {
+        if (ch in nameContainer) {
+            nameContainer[ch]++
+        } else {
+            nameContainer[ch] = 1
+        }
+    })
+    return nameContainer
 }
 
 console.log(countChars('Peggy Porth'))

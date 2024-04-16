@@ -19,7 +19,6 @@ const password = '9338dsabbbadjdjdj2sdfdfdf282ff8fdsd888ss8cfgfg332q23'
 
 function removeDupeChars(chars) {
     let result = ''
-    let passwordObject = {}
     for (let i = 0; i < chars.length; i++) {
         if (!result.includes(chars[i])) {
             result += chars[i]

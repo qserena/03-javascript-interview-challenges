@@ -4,7 +4,7 @@ From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/fr
 
 <br/>
 
-:arrow_right:  *NOTE! Please click each header to see the JavaScript solution!*  :arrow_left:
+:arrow*right: \_NOTE! Please click each header to see the JavaScript solution!* :arrow_left:
 
 <br/>
 
@@ -353,7 +353,7 @@ Example output: {p: 2, e: 1, g: 2, y: 1, o: 1, r: 1, t: 1, h: 1}
 Your function should NOT count spaces and should not be case sensitive (a
 lowercase t and a capital T should be considered the same character).
 
-// console.log(countChars('Peggy Porth'))
+// console.log(countChars('Peggy Porth'))  
 // console.log(countChars('Tom Serenander'))
 
 <br/>
@@ -570,7 +570,8 @@ Example output: The winner is 🐈 cats with 19 votes!
 <br/>
 
 ## [33 - Totally Private Data Farm](./33/index.js)
-/\* NO 
+
+/\* NO
 
 Good news, renown advertising firm Evil Corp. wants to purchase our
 private user data!
@@ -955,12 +956,9 @@ Example description: "Coding Corner is a 55 minute education podcast hosted by T
 
 ## [56 - Find Anagrams in an Array](./56/index.js)
 
-
-
 <br/>
 
 ## [58 - Emoji Flower Bed](./58/index.js)
-
 
 <br/>
 
