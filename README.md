@@ -396,8 +396,6 @@ console.log(removeDupesFromArray(eggScrambleRecipe))
 
 ## [27 - Pumpkin's prizes](./27/index.js)
 
-/\*
-
 Scrimba mascot Pumpkin has won the grand prize at an international
 cat show. Below are Pumpkin's scores from the judges, as well as all the
 prizes he's won. In all the excitement of victory,
@@ -410,8 +408,6 @@ for this, but pratice both doing it manually and using the method.
 
 Example input: [1, [4,5], [4,7,6,4], 3, 5]  
 Example output: [1, 4, 5, 4, 7, 6, 4, 3, 5]
-
-\*/
 
 ```
 const kittyScores = [
@@ -446,19 +442,16 @@ of new attendees.
 
 Example input: [1,2,3]
 Example output: 6
-\*/
 
-// const studentCount = [50, 53, 61, 67, 60, 70, 78, 80, 80, 81, 90, 110]
+```
+const studentCount = [50,53,61,67,60,70,78,80,80,81,90,110];
 
-// function sumArray(arr) {
-// let sum = 0
-// arr.forEach((element) => {
-// sum += element
-// })
-// return sum
-// }
+function sumArray(arr){
 
-// console.log(sumArray(studentCount))
+}
+
+console.log(sumArray(studentCount));
+```
 
 <br/>
 
