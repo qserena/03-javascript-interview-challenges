@@ -440,7 +440,7 @@ Help him find the total number of attendees! Your function should
 take in an array and return a number representing the total number
 of new attendees.
 
-Example input: [1,2,3]
+Example input: [1,2,3]  
 Example output: 6
 
 ```
