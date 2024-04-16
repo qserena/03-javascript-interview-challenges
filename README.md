@@ -369,21 +369,20 @@ and returns a new array with all the duplicates removed.
 
 Example input: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops", "🦄 unicorn", "🍭 lollipops"];  
 Example output: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops"];
-\*/
 
 ```
 const eggScrambleRecipe = [
- '🥓 bacon',
- '🥓 bacon',
- '🍳 eggs',
- '🫑 green peppers',
- '🧀 cheese',
- '🌶️ hot sauce',
- '🥓 bacon',
- '🥦 broccoli',
- '🧀 cheese',
- '🥦 broccoli',
- '🌶️ hot sauce',
+    '🥓 bacon',
+    '🥓 bacon',
+    '🍳 eggs',
+    '🫑 green peppers',
+    '🧀 cheese',
+    '🌶️ hot sauce',
+    '🥓 bacon',
+    '🥦 broccoli',
+    '🧀 cheese',
+    '🥦 broccoli',
+    '🌶️ hot sauce',
 ]
 ```
 
