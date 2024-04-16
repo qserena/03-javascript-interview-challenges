@@ -367,65 +367,31 @@ ingredients.
 Help save Chef Mario's cookbook by writing a function that takes in an array
 and returns a new array with all the duplicates removed.
 
-Example input: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops", "🦄 unicorn", "🍭 lollipops"];
+Example input: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops", "🦄 unicorn", "🍭 lollipops"];  
 Example output: ["🌈 rainbow", "🦄 unicorn", "🍭 lollipops"];
 \*/
 
-// const eggScrambleRecipe = [
-// '🥓 bacon',
-// '🥓 bacon',
-// '🍳 eggs',
-// '🫑 green peppers',
-// '🧀 cheese',
-// '🌶️ hot sauce',
-// '🥓 bacon',
-// '🥦 broccoli',
-// '🧀 cheese',
-// '🥦 broccoli',
-// '🌶️ hot sauce',
-// ]
+```
+const eggScrambleRecipe = [
+ '🥓 bacon',
+ '🥓 bacon',
+ '🍳 eggs',
+ '🫑 green peppers',
+ '🧀 cheese',
+ '🌶️ hot sauce',
+ '🥓 bacon',
+ '🥦 broccoli',
+ '🧀 cheese',
+ '🥦 broccoli',
+ '🌶️ hot sauce',
+]
+```
 
-// function removeDupesFromArray(arr) {
-// const newArr = []
-// for (let i = 0; i < arr.length; i++) {
-// if (newArr.indexOf(arr[i]) === -1) {
-// newArr.push(arr[i])
-// }
-// }
-// return newArr
-// }
+function removeDupesFromArray(arr) {
 
-// function removeDupesFromArray(arr) {
-// const uniqueItems = []
+}
 
-// arr.forEach((item) => {
-// if (!uniqueItems.includes(item)) {
-// uniqueItems.push(item)
-// }
-// })
-// return uniqueItems
-// }
-
-// function removeDupesFromArray(arr) {
-// // create a new object to keep track of duplicates
-// // use filter to loop thorugh each item in the arr
-// // for each item in arr
-// // look up the item in the lookup table
-// // if the item does NOT exist in the lookup, add it and return true
-// // return false
-
-// const trackDupes = {}
-
-// return arr.filter((item) => {
-// if (!trackDupes[item]) {
-// trackDupes[item] = true
-// return true
-// }
-// return false
-// })
-// }
-
-// console.log(removeDupesFromArray(eggScrambleRecipe))
+console.log(removeDupesFromArray(eggScrambleRecipe))
 
 <br/>
 
