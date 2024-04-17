@@ -4,7 +4,7 @@ From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/fr
 
 <br/>
 
-:arrow_right: _NOTE! Please click each header to see the JavaScript solution!_ :arrow_left:
+:arrow*right: \_NOTE! Please click each header to see the JavaScript solution!* :arrow_left:
 
 <br/>
 
@@ -488,6 +488,8 @@ console.log(findTheWinner(gameNightFood))
 
 ## [33 - Totally Private Data Farm](./33/index.js)
 
+import userData from './data.js'
+
 Good news, renown advertising firm Evil Corp. wants to purchase our
 private user data!
 
@@ -523,6 +525,8 @@ console.log(transformData(userData));
 
 ## [35 - Find Free Podcasts](./35/index.js)
 
+import podcasts from './data.js'
+
 We have a list of podcasts and need the ability to filter by only
 podcasts which are free.
 
@@ -552,6 +556,8 @@ console.log(getFreePodcasts(podcasts))
 
 ## [37 - Candy Sale](./37/index.js)
 
+import products from "./data.js"
+
 It's the day after Halloween 🎃 and all the candy is on sale!
 
 To buy up all the candy, use map() and filter() to put all the
@@ -560,66 +566,55 @@ candy into a `shoppingCart` array.
 The new array should contain only the item and the price, like
 this:
 
+```
 Expected output:
 [
-{item: "🍭", price: 2.99},
-{item: "🍫", price: 1.99},
-{item: "🍬", price: 0.89}
+    {item: "🍭", price: 2.99},
+    {item: "🍫", price: 1.99},
+    {item: "🍬", price: 0.89}
 ]
-\*/
 
-// function getSaleItems(data) {
-// return data
-// .filter((elem) => elem.type === 'sweet')
-// .map(({ item, price }) => ({ item, price }))
-// }
+function getSaleItems(data){
 
-// console.log(getSaleItems(products))
+}
+```
 
 <br/>
 
 ## [39 - Shopping Cart](./39/index.js)
 
-/\*  
-Use reduce() to total the groceries.
-Then find a method that will round the total to 2 decimal places.
+import shoppingCart from "./data.js";
 
-Example output: 73.44
-\*/
+    Use reduce() to total the groceries.
+    Then find a method that will round the total to 2 decimal places.
 
-// function total(arr) {
-// return arr
-// .reduce(
-// (accumulator, currentValue) => accumulator + currentValue.price,
-// 0
-// )
-// .toFixed(2)
-// }
+```
+function total(arr){
 
-// console.log(total(shoppingCart))
+}
 
-//import shoppingCart from './data-41.js'
+console.log(total(shoppingCart));
+```
 
 <br/>
 
 ## [41 - Totally Savory Items](./41/index.js)
 
+import shoppingCart from "./data.js";
+
 Use reduce() and only reduce() to calculate and return
 the total cost of only the savory
 items in the shopping cart.
 
-Expected output: 9.97  
-\*/
+Expected output: 9.97
 
-// function totalSavory(arr) {
-// return arr
-// .filter((elem) => elem.type === 'savory')
-// .reduce((acc, curr) => acc + curr.price, 0)
-// }
+```
+function totalSavory(arr){
 
-// console.log(totalSavory(shoppingCart))
+}
 
-// import products from './data-43.js'
+console.log(totalSavory(shoppingCart));
+```
 
 <br/>
 

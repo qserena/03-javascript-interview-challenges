@@ -1,3 +1,5 @@
+import podcasts from './data.js'
+
 /* 
 
 35 - Find Free Podcasts
