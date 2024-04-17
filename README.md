@@ -4,7 +4,7 @@ From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/fr
 
 <br/>
 
-:arrow*right: \_NOTE! Please click each header to see the JavaScript solution!* :arrow_left:
+:arrow_right: *NOTE! Please click each header to see the JavaScript solution!* :arrow_left:
 
 <br/>
 
