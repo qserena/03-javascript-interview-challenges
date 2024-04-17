@@ -466,39 +466,27 @@ Your function should take in a food object and find the food
 with the most votes. It should log the winner, along with
 how many votes it received.
 
-Example input: {"🐈 cats": 19, "🐕 dogs": 17}
+Example input: {"🐈 cats": 19, "🐕 dogs": 17}  
 Example output: The winner is 🐈 cats with 19 votes!
-\*/
 
-// const gameNightFood = {
-// '🍕 pizza': 3,
-// '🌮 tacos': 10,
-// '🥗 salads': 7,
-// '🍝 pasta': 5,
-// }
+```
+const gameNightFood = {
+    "🍕 pizza": 3,
+    "🌮 tacos": 10,
+    "🥗 salads": 7,
+    "🍝 pasta": 5
+}
 
-// function findTheWinner(obj) {
-// let highestVotes = 0
-// let winningItem = ''
-// for (let item in obj) {
-// if (obj[item] > highestVotes) {
-// highestVotes = obj[item]
-// winningItem = item
-// }
-// }
+function findTheWinner(obj){
 
-// return `The winner is ${winningItem} with ${highestVotes} votes!`
-// }
+}
 
-// console.log(findTheWinner(gameNightFood))
-
-//import userData from './data-33.js'
+console.log(findTheWinner(gameNightFood))
+```
 
 <br/>
 
 ## [33 - Totally Private Data Farm](./33/index.js)
-
-/\* NO
 
 Good news, renown advertising firm Evil Corp. wants to purchase our
 private user data!
@@ -514,24 +502,22 @@ a new an array of objects with only two properties:
 fullName and birthday. Each result in your
 array should look like this when you're done:
 
+```
 {
-fullName: "Levent Busser",
-birthday: "Fri Aug 20 1971"
+    fullName: "Levent Busser",
+    birthday: "Fri Aug 20 1971"
 }
+```
 
 Read about toDateString() for info on formatting a readable date.
 
-\*/
-// function transformData(data) {
-// return data.map(({ name, dob }) => ({
-// fullName: `${name.first} ${name.last}`,
-// birthday: new Date(dob.date).toDateString(),
-// }))
-// }
+```
+function transformData(data){
 
-// console.log(transformData(userData))
+}
 
-//import podcasts from './data-35.js'
+console.log(transformData(userData));
+```
 
 <br/>
 
