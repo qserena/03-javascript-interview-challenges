@@ -746,6 +746,8 @@ console.log(calcAverageLikes(postData))
 
 ## [52 - Night at the Scrimbies](./52/index.js)
 
+import podcasts from "./data.js";
+
 It's time for the Scrimbies, a prestigious award show for podcast hosts.
 We need to assemble a list of podcast hosts so we can start handing out awards.
 
@@ -758,25 +760,18 @@ from the awards array.
 
 Example output: ["🏆 Alex Booker", "⭐ Bob Smith", "💎 Camilla Lambert" ...]
 
-\*/
-// const awards = ['🏆', '⭐', '💎', '🥇', '👑']
+const awards = ["🏆", "⭐", "💎", "🥇", "👑"];
 
-// function getHosts(data) {
-// return data.reduce((acc, curr) => [...acc, ...curr.hosts], [])
-// }
+function getHosts(data){
 
-// function assignAwards(data) {
-// const hosts = getHosts(podcasts)
-// return hosts.map((host) => {
-// const randomIndex = Math.floor(awards.length \* Math.random())
-// return `${awards[randomIndex]} ${host}`
-// })
-// }
+}
 
-// //console.log(getHosts(podcasts))
-// console.log(assignAwards(podcasts))
+function assignAwards(data){
 
-//import podcasts from './data-54.js'
+}
+
+console.log(getHosts(podcasts));  
+console.log(assignAwards(podcasts));
 
 <br/>
 
