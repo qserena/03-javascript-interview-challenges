@@ -4,7 +4,7 @@ From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/fr
 
 <br/>
 
-:arrow_right: *NOTE! Please click each header to see the JavaScript solution!* :arrow_left:
+:arrow_right: _NOTE! Please click each header to see the JavaScript solution!_ :arrow_left:
 
 <br/>
 
@@ -533,27 +533,20 @@ Additionally, your new array should return only
 objects containing only the podcast title, rating, and whether or
 not it is paid.
 
+```
 Expected output:
 [
-{title: "Scrimba Podcast", rating: 10, paid: false},
-{title: "Something about Witches", rating: 8, paid: false},
-{title: "Coding Corner", rating: 9, paid: false}
+    {title: "Scrimba Podcast", rating: 10, paid: false},
+    {title: "Something about Witches", rating: 8, paid: false},
+    {title: "Coding Corner", rating: 9, paid: false}
 ]
-\*/
 
-// function getFreePodcasts(data) {
-// return data
-// .filter((podcast) => !podcast.paid)
-// .map(({ title, rating, paid }) => ({
-// title,
-// rating,
-// paid,
-// }))
-// }
+function getFreePodcasts(data){
 
-// console.log(getFreePodcasts(podcasts))
+}
 
-//import products from './data-37.js'
+console.log(getFreePodcasts(podcasts))
+```
 
 <br/>
 
