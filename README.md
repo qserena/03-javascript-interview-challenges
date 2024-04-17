@@ -687,6 +687,8 @@ console.log(getUniqueTags(mediaData));
 
 ## [48 - Welcome Aboard Scrimba Airlines](./48/index.js)
 
+import podcasts from "./data.js";
+
 Our Scrimba Airlines in-flight entertainment package
 includes a variety of podcasts. We need to add a feature that suggests
 podcasts to our patrons based on whether a flight is short or long.
@@ -707,27 +709,11 @@ each podcast to the console, like this:
 5. Scrimba Podcast, 50 minutes
 6. Something about Witches, 35 minutes
 
-\*/
+function sortByDuration(data, flightLength){
 
-// function sortByDuration(data, flightLength) {
-// let sortedArray = []
-// if (flightLength <= 60) {
-// sortedArray = data.sort((a, b) => a.duration - b.duration)
-// } else {
-// sortedArray = data.sort((a, b) => b.duration - a.duration)
-// }
-// for (let i = 0; i < sortedArray.length; i++) {
-// console.log(
-// `${i + 1}. ${sortedArray[i].title}, ${
-// 				sortedArray[i].duration
-// 			} minutes`
-// )
-// }
-// }
+}
 
-// sortByDuration(podcasts, 59)
-
-//import postData from './data-50.js'
+sortByDuration(podcasts, 60);
 
 <br/>
 
