@@ -620,32 +620,30 @@ console.log(totalSavory(shoppingCart));
 
 ## [43 - Holiday Gift Shopping](./43/index.js)
 
-// You're online shopping for holiday gifts, but money is tight
-// so we need to look at the cheapest items first.
-// Use the built in sort() method to write a function that returns a new array of
-// products sorted by price, cheapest to most expensive.
+import products from "./data.js";
 
-// Then log the item and the price to the console:
+    You're online shopping for holiday gifts, but money is tight
+    so we need to look at the cheapest items first.
+    Use the built in sort() method to write a function that returns a new array of
+    products sorted by price, cheapest to most expensive.
 
-// 💕,0
-// 🍬,0.89
-// 🍫,0.99
-// 🧁,0.99
-// 📚,0.99
-// ... continued
-// \*/
+    Then log the item and the price to the console:
 
-// function sortProducts(data) {
-// return data.sort((a, b) => a.price - b.price)
-// }
+    💕,0
+    🍬,0.89
+    🍫,0.99
+    🧁,0.99
+    📚,0.99
+    ... continued
 
-// const listByCheapest = sortProducts(products)
-// //console.log(listByCheapest)
-// listByCheapest.forEach((element) => {
-// console.log(element.product, element.price)
-// })
+```
+function sortProducts(data){
 
-//import mediaData from './data-45.js'
+}
+
+const listByCheapest = sortProducts(products);
+console.log(listByCheapest);
+```
 
 <br/>
 
