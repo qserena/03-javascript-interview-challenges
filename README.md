@@ -709,15 +709,19 @@ each podcast to the console, like this:
 5. Scrimba Podcast, 50 minutes
 6. Something about Witches, 35 minutes
 
+```
 function sortByDuration(data, flightLength){
 
 }
 
 sortByDuration(podcasts, 60);
+```
 
 <br/>
 
 ## [50 - Popularity Contest](./50/index.js)
+
+import postData from "./data.js";
 
 Iggy the Influencer and Toby the Tiktoker are dying to know
 who's more popular on social media.
@@ -729,15 +733,14 @@ In data.js you'll find a list of Iggy's recent posts.
 Use reduce() to write a function that returns the average number of likes.
 To find the average, add up the total number of likes, then divide
 by the total number of posts.
-\*/
 
-// function calcAverageLikes(data) {
-// return data.reduce((acc, curr) => acc + curr.likes, 0) / data.length
-// }
+```
+function calcAverageLikes(data){
 
-// console.log(calcAverageLikes(postData).toFixed(2))
+}
 
-//import podcasts from './data-52.js'
+console.log(calcAverageLikes(postData))
+```
 
 <br/>
 
