@@ -17,6 +17,8 @@ Example output: [1, 4, 5, 4, 7, 6, 4, 3, 5]
 
 */
 
+const example = [1, [4, 5], [4, 7, 6, 4], 3, 5]
+
 const kittyScores = [
     [39, 99, 76],
     89,
@@ -42,7 +44,24 @@ const kittyPrizes = [
     '🐟',
 ]
 
-function flatten(arr) {}
+// Alt. 1
+function flatten(arr) {
+    let newArr = []
+    arr.forEach((elem) => {
+        if (Array.isArray(elem)) {
+            newArr.push(...elem)
+        } else {
+            newArr.push(elem)
+        }
+    })
+    return newArr
+}
 
+// Alt. 2
+// function flatten(arr) {
+//     return arr.flat()
+// }
+
+console.log(flatten(example))
 console.log(flatten(kittyPrizes))
 console.log(flatten(kittyScores))
