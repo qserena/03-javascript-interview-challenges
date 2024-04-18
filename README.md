@@ -4,6 +4,7 @@ From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/fr
 
 <br/>
 :arrow_right: <em>NOTE! Please click each header to see the JavaScript solution!</em> :arrow_left:
+
 <br/>
 
 ## [02 - Panic function](./02/index.js)
@@ -15,7 +16,6 @@ built in string methods.
 If the string is a phrase or sentence, add a 😱 emoji in between each word.
 
 Example input: "Hello"  
-Example output: "HELLO!"
 
 Example input: "I'm almost out of coffee"  
 Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
