@@ -3,9 +3,7 @@
 From Scrimba's [The Frontend Developer Career Path](https://scrimba.com/learn/frontend), Module 12 - Getting Hired.
 
 <br/>
-
-:arrow_right: NOTE! Please click each header to see the JavaScript solution! :arrow_left:
-
+:arrow_right: <em>NOTE! Please click each header to see the JavaScript solution!</em> :arrow_left:
 <br/>
 
 ## [02 - Panic function](./02/index.js)
