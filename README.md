@@ -675,7 +675,6 @@ Expected output:
     "adventure"
 ]
 
-
 function getUniqueTags(data){
 
 }
@@ -777,6 +776,8 @@ console.log(assignAwards(podcasts));
 
 ## [🌴 54 - Save the Weekend 🌴](./54/index.js)
 
+import podcasts from "./data.js";
+
 Your best friend is a copywriter who writes product descriptions
 for a living. You want to use your hacking skills to help them
 automate their job so you both can spend the weekend on a
@@ -789,36 +790,79 @@ Add the description as a new property on each podcast object, and return
 a new podcast array where each podcast has a description.
 
 Each description should look like this:
+
+```
 [
-{
-id: 1,
-title: "Scrimba Podcast",
-...
-description: "Scrimba Podcast is a 50 minute education podcast hosted
-by Alex Booker."
-}
-...
+    {
+        id: 1,
+        title: "Scrimba Podcast",
+        ...
+        description: "Scrimba Podcast is a 50 minute education podcast hosted by Alex Booker."
+    }
+    ...
 ]
+```
 
 If the podcast has more than one host, you can display only the first host.
 
 Stretch goal: Display all three hosts in the description, seperated with commas:
 
 Example description: "Coding Corner is a 55 minute education podcast hosted by Treasure Porth, Guil Hernandez, and Tom Chant."
-\*/
 
-// function createDescriptionsFor(data) {
-// return data.map((pod) => ({
-// ...pod,
-// description: `${pod.title} is a ${pod.duration} minute ${pod.genre} podcast hosted by ${pod.hosts[0]}.`,
-// }))
-// }
-// console.log('hej')
-// console.log(createDescriptionsFor(podcasts))
+```
+function createDescriptionsFor(data) {
+
+}
+
+console.log(createDescriptionsFor(podcasts))
+```
 
 <br/>
 
 ## [56 - Find Anagrams in an Array](./56/index.js)
+
+When two words have the exact same letters, they are anagrams.
+
+Each item in the anagrams array is an anagram of a Scrimba teacher's
+first and last name, plus the phrase "Scrimba teacher".
+
+Write a function to determine which strings in the array are
+anagrams of "Bob Ziroll Scrimba Teacher".
+
+Your function should take two parameters: the phrase you want to compare to
+the anagrams, and an array of anagrams. The function should return
+a new array of anagrams that match the phrase.
+
+Example input: treat, ["tater", "tree", "teart", "tetra", "heart", "hamster"]  
+Example output: ["tater", "teart", "tetra"]
+
+Bonus: What other teachers are represented in these anagrams?
+
+```
+const anagrams = [
+    "moz biblical torchbearers",
+    "it's razorbill beachcomber",
+    "och mcrobbie trailblazers",
+    "bib chorizo cellarmaster",
+    "thor scribble carbimazole",
+    "zilla borscht abercrombie",
+    "brazil scorcher batmobile",
+    "dame shelburne characterizing",
+    "uber englishman characterized",
+    "agnes rhumbline characterized",
+    "rehab scrutinized charlemagne",
+    "dreams zurich interchangeable",
+    "bam hamster technocratic",
+    "mechatronic masterbatch",
+    "bam ratchet mechatronics"
+]
+
+function isAnagramInArray(anagram, arr){
+
+}
+
+console.log(isAnagramInArray("Bob Ziroll Scrimba Teacher", anagrams));
+```
 
 <br/>
 
