@@ -805,7 +805,7 @@ Each description should look like this:
 
 If the podcast has more than one host, you can display only the first host.
 
-Stretch goal: Display all three hosts in the description, seperated with commas:
+Stretch goal: Display all three hosts in the description, separated with commas:
 
 Example description: "Coding Corner is a 55 minute education podcast hosted by Treasure Porth, Guil Hernandez, and Tom Chant."
 
@@ -867,6 +867,31 @@ console.log(isAnagramInArray("Bob Ziroll Scrimba Teacher", anagrams));
 <br/>
 
 ## [58 - Emoji Flower Bed](./58/index.js)
+
+Oh no, our emoji flower bed is infested with mammals, trees and leaves!
+Without changing the API url, write a function to transform your
+data before it's displayed. The function should eliminate
+everything but bugs and flowers. Use your function in the API call.
+
+Hint: Be sure to console the data to see what properties can help you do this!
+
+```
+const api = 'https://apis.scrimba.com/emojihub/api/all/category/animals-and-nature';
+const flowerBed = document.querySelector('.emoji-flower-bed');
+
+function clearTheGarden(arr){
+
+}
+
+fetch(api)
+    .then(response => response.json())
+    .then((data) => {
+        data.forEach(emoji => {
+            flowerBed.innerHTML += `<li>${emoji.htmlCode}</li>`;
+        });
+    })
+    .catch(err => console.log(err));
+```
 
 <br/>
 

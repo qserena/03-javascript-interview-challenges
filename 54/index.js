@@ -23,7 +23,7 @@ Each description should look like this:
 
 If the podcast has more than one host, you can display only the first host.
 
-Stretch goal: Display all three hosts in the description, seperated with commas:
+Stretch goal: Display all three hosts in the description, separated with commas:
 
 Example description: "Coding Corner is a 55 minute education podcast hosted by Treasure Porth, Guil Hernandez, and Tom Chant."
 
