@@ -8,6 +8,11 @@
    everything but bugs and flowers. Use your function in the API call.  
    
    Hint: Be sure to console the data to see what properties can help you do this!
+
+   MY COMMENT: 
+   const api = 'https://apis.scrimba.com/emojihub/api/all/category/animals-and-nature' DOES NOT WORK 
+   SO I REPLACE IT WITH:
+   const api = 'https://emojihub.yurace.pro/api/all/category/animals-and-nature'
    
 */
 
