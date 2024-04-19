@@ -39,6 +39,23 @@ const anagrams = [
     'bam ratchet mechatronics',
 ]
 
-function isAnagramInArray(anagram, arr) {}
+function sortPhrase(phrase) {
+    return phrase.toLowerCase().split('').sort().join('').trim()
+}
+
+function isAnagramInArray(anagram, arr) {
+    return arr.filter((item) => sortPhrase(item) === sortPhrase(anagram))
+}
 
 console.log(isAnagramInArray('Bob Ziroll Scrimba Teacher', anagrams))
+
+console.log(
+    isAnagramInArray('treat', [
+        'tater',
+        'tree',
+        'teart',
+        'tetra',
+        'heart',
+        'hamster',
+    ])
+)
