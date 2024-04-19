@@ -21,4 +21,4 @@ function calcAverageLikes(data) {
     return data.reduce((acc, curr) => acc + curr.likes, 0) / data.length
 }
 
-console.log(calcAverageLikes(postData))
+console.log(calcAverageLikes(postData).toFixed(2))
