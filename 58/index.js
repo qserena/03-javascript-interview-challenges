@@ -11,14 +11,18 @@
    
 */
 
-const api =
-    'https://apis.scrimba.com/emojihub/api/all/category/animals-and-nature'
+const api = 'https://emojihub.yurace.pro/api/all/category/animals-and-nature'
 const flowerBed = document.querySelector('.emoji-flower-bed')
 
-function clearTheGarden(arr) {}
+function clearTheGarden(arr) {
+    return arr.filter(
+        (item) => item.group === 'animal bug' || item.group === 'plant flower'
+    )
+}
 
 fetch(api)
     .then((response) => response.json())
+    .then((result) => clearTheGarden(result))
     .then((data) => {
         data.forEach((emoji) => {
             flowerBed.innerHTML += `<li>${emoji.htmlCode}</li>`
