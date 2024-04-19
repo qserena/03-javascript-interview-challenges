@@ -21,4 +21,10 @@ import products from './data.js'
     
 */
 
-function getSaleItems(data) {}
+function getSaleItems(data) {
+    return data
+        .filter((candy) => candy.type === 'sweet')
+        .map(({ item, price }) => ({ item, price }))
+}
+
+console.log(getSaleItems(products))
