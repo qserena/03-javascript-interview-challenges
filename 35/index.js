@@ -23,6 +23,14 @@ Expected output:
 
 */
 
-function getFreePodcasts(data) {}
+function getFreePodcasts(data) {
+    return data
+        .filter((pod) => !pod.paid)
+        .map(({ title, rating, paid }) => ({
+            title,
+            rating,
+            paid,
+        }))
+}
 
 console.log(getFreePodcasts(podcasts))
