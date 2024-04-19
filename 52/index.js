@@ -20,9 +20,19 @@ Example output: ["🏆 Alex Booker", "⭐ Bob Smith", "💎 Camilla Lambert" ...
 
 const awards = ['🏆', '⭐', '💎', '🥇', '👑']
 
-function getHosts(data) {}
+function getHosts(data) {
+    return data.reduce((acc, curr) => {
+        return [...acc, ...curr.hosts]
+    }, [])
+}
 
-function assignAwards(data) {}
+function assignAwards(data) {
+    const hosts = getHosts(data)
+    return hosts.map((host) => {
+        const randomIndex = Math.floor(5 * Math.random())
+        return `${awards[randomIndex]} ${host}`
+    })
+}
 
 console.log(getHosts(podcasts))
 console.log(assignAwards(podcasts))
