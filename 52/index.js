@@ -29,7 +29,7 @@ function getHosts(data) {
 function assignAwards(data) {
     const hosts = getHosts(data)
     return hosts.map((host) => {
-        const randomIndex = Math.floor(5 * Math.random())
+        const randomIndex = Math.floor(awards.length * Math.random())
         return `${awards[randomIndex]} ${host}`
     })
 }
