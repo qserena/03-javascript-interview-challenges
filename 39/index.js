@@ -9,6 +9,8 @@ Then find a method that will round the total to 2 decimal places.
 
 */
 
-function total(arr) {}
+function total(arr) {
+    return arr.reduce((total, curr) => total + curr.price, 0).toFixed(2)
+}
 
 console.log(total(shoppingCart))
