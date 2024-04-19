@@ -29,6 +29,25 @@ Example description: "Coding Corner is a 55 minute education podcast hosted by T
 
 */
 
-function createDescriptionsFor(data) {}
+function createDescriptionsFor(data) {
+    return data.map((podcast) => {
+        let hostsText = ''
+        const noOfHosts = podcast.hosts.length
+        if (noOfHosts === 1) {
+            hostsText = podcast.hosts[0]
+        } else if (noOfHosts > 1) {
+            const hostsText1 = podcast.hosts.slice(0, noOfHosts - 1).join(', ')
+            const hostsText2 = podcast.hosts[noOfHosts - 1]
+            hostsText = hostsText1 + ', and ' + hostsText2
+        }
+
+        const des = `${podcast.title} is a ${podcast.duration} minute ${podcast.genre} podcast hosted by ${hostsText}.`
+        const newPod = {
+            ...podcast,
+            description: des,
+        }
+        return newPod
+    })
+}
 
 console.log(createDescriptionsFor(podcasts))
