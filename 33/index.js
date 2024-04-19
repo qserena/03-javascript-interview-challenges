@@ -27,6 +27,10 @@ Read about toDateString() for info on formatting a readable date.
 
 */
 
-function transformData(data) {}
+function transformData(data) {
+    return data.map((item) => ({
+        fullName: `${item.name.first}`,
+    }))
+}
 
 console.log(transformData(userData))
