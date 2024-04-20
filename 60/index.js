@@ -54,7 +54,6 @@ fetch(food)
     .then((data) => {
         data.forEach((item) => {
             slotMachine.innerHTML += `<li>${item.htmlCode[0]}</li>`
-            console.log(item)
-            console.log(item.htmlCode[0])
         })
     })
+    .catch((err) => console.log(err))
