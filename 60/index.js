@@ -31,5 +31,7 @@ fetch(food)
     .then((response) => response.json())
     .then((result) => makeFruitArray(result))
     .then((data) => {
-        data.forEach((item) => console.log(item))
+        data.forEach((item) => {
+            console.log(item)
+        })
     })
