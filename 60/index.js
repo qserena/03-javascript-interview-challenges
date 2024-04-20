@@ -24,14 +24,37 @@ function makeFruitArray(arr) {
     return arr.filter((item) => item.group === 'food fruit')
 }
 
-function getRandomFruits(arr) {}
+function getRandomFruits(arr) {
+    const desiredNoOfFruits = 9
+    const initialNoOfFruits = arr.length
+    let selectedIndices = []
+    let selectedFruits = []
+    if (initialNoOfFruits > desiredNoOfFruits) {
+        while (selectedFruits.length < desiredNoOfFruits) {
+            const randomIndex = Math.floor(initialNoOfFruits * Math.random())
+            if (!selectedIndices.includes(randomIndex)) {
+                selectedIndices.push(randomIndex)
+                selectedFruits.push(arr[randomIndex])
+            }
+        }
+        return selectedFruits
+    } else {
+        return arr
+    }
+}
+
+// Remove li elements
+slotMachine.innerHTML = ''
 
 // write your fetch request here
 fetch(food)
     .then((response) => response.json())
     .then((result) => makeFruitArray(result))
+    .then((selection) => getRandomFruits(selection))
     .then((data) => {
         data.forEach((item) => {
+            slotMachine.innerHTML += `<li>${item.htmlCode[0]}</li>`
             console.log(item)
+            console.log(item.htmlCode[0])
         })
     })
