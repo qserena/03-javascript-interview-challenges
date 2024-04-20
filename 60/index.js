@@ -21,21 +21,17 @@ const slotMachine = document.querySelector('.emoji-slots-game')
 const food = 'https://emojihub.yurace.pro/api/all/category/food-and-drink'
 
 function makeFruitArray(arr) {
-    return arr.filter((item) => item.group === 'food fruit')
+    return arr.filter((item) => item.group.includes('fruit'))
 }
 
 function getRandomFruits(arr) {
     const desiredNoOfFruits = 9
     const initialNoOfFruits = arr.length
-    let selectedIndices = []
     let selectedFruits = []
     if (initialNoOfFruits > desiredNoOfFruits) {
-        while (selectedFruits.length < desiredNoOfFruits) {
+        for (let i = 0; i < desiredNoOfFruits; i++) {
             const randomIndex = Math.floor(initialNoOfFruits * Math.random())
-            if (!selectedIndices.includes(randomIndex)) {
-                selectedIndices.push(randomIndex)
-                selectedFruits.push(arr[randomIndex])
-            }
+            selectedFruits.push(arr[randomIndex])
         }
         return selectedFruits
     } else {
